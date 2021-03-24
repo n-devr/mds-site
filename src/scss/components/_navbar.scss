@@ -2,7 +2,7 @@
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: $gray-900;
+    background-color: $white;
     .navbar-toggler {
         padding: 0.75rem;
         font-family: $headings-font-family;
@@ -27,7 +27,7 @@
             .nav-link {
                 font-family: $headings-font-family;
                 font-size: 0.95rem;
-                color: $white;
+                color: $mds-blue--dark;
                 letter-spacing: $headings-letter-spacing;
                 &.active,
                 &:hover {
@@ -59,7 +59,7 @@
         &.navbar-shrink {
             padding-top: 1rem;
             padding-bottom: 1rem;
-            background-color: $gray-900;
+            background-color: $white;
             .navbar-brand {
                 font-size: 1.25em;
                 svg,

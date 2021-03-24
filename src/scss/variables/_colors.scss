@@ -2,9 +2,12 @@
 
 $yellow: #fed136;
 
+$mds-blue--light: #3A75B6;
+$mds-blue--dark: #121442;
+
 // Override Bootstrap default state colors
 
-$primary: $yellow;
+$primary: $mds-blue--light;
 
 // Override Bootstrap yiq lightness value
 
