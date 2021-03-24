@@ -1,7 +1,6 @@
 /*!
-    * Start Bootstrap - MDS Business Advisors v0.0.0 (https://n-devr.github.io/mds-site)
-    * Copyright 2013-2021 undefined
-    * Licensed under undefined (https://github.com/StartBootstrap/mds-site/blob/master/LICENSE)
+    * MDS Business Advisors v0.0.0 (https://n-devr.github.io/mds-site)
+    * Copyright 2021-2021 Noah Weinert
     */
     (function ($) {
     "use strict"; // Start of use strict
