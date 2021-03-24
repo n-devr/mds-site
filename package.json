@@ -3,6 +3,8 @@
     "name": "mds-site",
     "version": "0.0.0",
     "description": "MDS Business Advisors Website.",
+    "homepage": "https://n-devr.github.io/mds-site",
+    "author": "Noah Weinert",
     "dependencies": {
         "bootstrap": "4.5.3"
     },
@@ -11,6 +13,7 @@
         "browser-sync": "2.26.13",
         "chokidar": "3.4.3",
         "concurrently": "5.3.0",
+        "gh-pages": "^3.1.0",
         "postcss": "8.1.4",
         "prettier": "2.1.2",
         "pug": "3.0.0",
@@ -25,6 +28,8 @@
         "build:scss": "node scripts/build-scss.js",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node scripts/start-debug.js",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     }
 }
